@@ -24,7 +24,6 @@ function createUserCard(user) {
     card.classList.add('user-card');
 
     const image = document.createElement('img');
-    image.src = user.picture;
     image.alt = user.name;
 
     const name = document.createElement('h2');
